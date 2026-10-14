@@ -1,0 +1,27 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.h
+credentials.h
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and log files
+*.log
+*.tmp
+
+# Build output
+build/
+dist/
+node_modules/
+
+# Arduino-generated artifacts
+*.elf
+*.hex
+*.bin
+*.map
